@@ -13,16 +13,13 @@
       crossorigin="anonymous"
     />
     <!-- CSS -->
-    <link rel="stylesheet" href="estilo/estilo.css"/>
+    <link rel="stylesheet" href="../estilo/estilo.css" />
   </head>
   <body>
-    <header>
-      
-    </header>
+    <header></header>
 
     <nav class="navbar navbar-dark bgNavSMG fixed-top">
       <div class="container-fluid">
-        <img class="logotipoSMG" src="multimedia/LOGOTIPOSMG2.JPG" alt="logotipo_SMG">
         <a class="navbar-brand" href="#">SMART MEDICAL GROUP</a>
         <button
           class="navbar-toggler"
@@ -40,7 +37,10 @@
           aria-labelledby="offcanvasDarkNavbarLabel"
         >
           <div class="offcanvas-header">
-            <h4 class="offcanvas-title tituloMenu" id="offcanvasDarkNavbarLabel">
+            <h4
+              class="offcanvas-title tituloMenu"
+              id="offcanvasDarkNavbarLabel"
+            >
               Menú
             </h4>
             <button
@@ -53,13 +53,18 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                <a class="nav-link" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="páginas_web/servicios.html">Servicios</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="servicios.html"
+                  >Servicios</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="páginas_web/asociacion.html">Asociación</a>
+                <a class="nav-link" href="asociacion.html">Asociación</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -72,12 +77,16 @@
                   Otras Opciones
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="páginas_web/aboutus.html">Sobre Nosotros</a></li>
+                  <li>
+                    <a class="dropdown-item" href="aboutus.html"
+                      >Sobre Nosotros</a
+                    >
+                  </li>
                   <li>
                     <hr class="dropdown-divider" />
                   </li>
                   <li>
-                    <a class="dropdown-item" href="páginas_web/contacto.html">Contacto</a>
+                    <a class="dropdown-item" href="contacto.html">Contacto</a>
                   </li>
                 </ul>
               </li>
