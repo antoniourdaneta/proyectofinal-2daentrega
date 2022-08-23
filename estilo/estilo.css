@@ -49,13 +49,13 @@ a {
   border-bottom: 2.5px black solid;
   border-left: 2.5px black solid;
   border-right: 2.5px black solid;
-  border-radius: 3rem;
+  border-radius: 2rem;
   margin: 5%;
 }
 
 .margenesPrincipal {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .margenesSecundarios {
@@ -116,4 +116,54 @@ h4 {
 .videoYoutube {
   text-align: center;
   margin-bottom: 2%;
+}
+
+@media (max-width: 767px) {
+  .indexItem1 {
+    font-size: large;
+    margin-left: 10%;
+  }
+
+  .indexItem2 {
+    width: 200%;
+  }
+
+  .indexItem3 {
+    display: none;
+  }
+
+  .indexItem4 {
+    margin-top: 10%;
+    font-size: large;
+  }
+
+  .indexItem5 {
+    margin-top: 5%;
+    width: 210%;
+  }
+
+  .indexItem6 {
+    display: none;
+  }
+
+  .indexItem7 {
+    font-size: large;
+  }
+
+  .indexItem8 {
+    width: 200%;
+    margin-right: 10%;
+  }
+
+  .indexItem9 {
+    display: none;
+  }
+
+  .imagenEsp {
+    display: none;
+  }
+
+  .logotipoSMG {
+    display: none;
+  }
 }
