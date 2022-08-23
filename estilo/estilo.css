@@ -39,3 +39,35 @@
 .espaciadoFooter {
   margin: 10px 10px 0px 10px;
 }
+
+a {
+    text-decoration: none;
+    color: rgb(25, 75, 70);
+}
+
+.cajasIndex {
+    border-bottom: 2.5px black solid;
+    border-left: 2.5px black solid;
+    border-right: 2.5px black solid;
+    border-radius: 3rem;
+    margin: 5%;
+}
+
+.margenesPrincipal {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.anchoImagenes {
+    width: 80%;
+    height: 85%;
+    padding: 1%;
+    border-left: solid rgb(25, 75, 70) 2.5px;
+    border-right: solid rgb(25, 75, 70) 2.5px;
+}
+
+.tarjetaServicios {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
