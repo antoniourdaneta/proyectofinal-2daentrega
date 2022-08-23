@@ -105,14 +105,10 @@
     <main>
         <h4 class="formularioContacto">¡Contáctanos!</h4>
 
-          <form class="formularioContacto">
+          <form class="formularioContacto bordesFormularios">
           <div class="form-floating margenesSecundarios">
             <input type="text" class="form-control" id="floatingPassword" placeholder="Nombre y Apellido">
             <label for="floatingPassword">Nombre y Apellido</label>
-          </div>
-          <div class="form-floating margenesSecundarios">
-            <input type="text" class="form-control" id="floatingPassword" placeholder="Edad">
-            <label for="floatingPassword">Edad</label>
           </div>
           <div class="form-floating margenesSecundarios">
             <input type="text" class="form-control" id="floatingPassword" placeholder="Teléfono Celular">
@@ -122,6 +118,21 @@
             <input type="text" class="form-control" id="floatingPassword" placeholder="Correo Electrónico">
             <label for="floatingPassword">Correo Electrónico</label>
           </div>
+
+          <select class="form-select margenesSecundarios" aria-label="Default select example">
+            <option selected>Selecciona la opción para tu consulta</option>
+            <option value="1">Dudas y Sugerencias</option>
+            <option value="2">Cartillas Médicas</option>
+            <option value="3">Turnos Médicos</option>
+            <option value="4">COVID-19</option>
+            <option value="5">Reclamos y Resolución de Problemas</option>
+          </select>
+
+          <div class="mb-3 margenesSecundarios">
+            <label for="exampleFormControlTextarea1" class="form-label">Déjanos tus comentarios para poder ayudarte</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
           <button type="submit" class="btn btn-light margenesSecundarios">Enviar</button>
           <button type="reset" class="btn btn-light margenesSecundarios">Restablecer</button>
           </form>
