@@ -22,9 +22,14 @@
 }
 
 .logotipoSMG {
-  width: 11%;
+  width: 100%;
   border-color: #405c5b;
   border-style: double;
+}
+
+.contenedorLogotipo {
+  width: 109px;
+  height: 56.26px;
 }
 
 .tituloPrincipal {
