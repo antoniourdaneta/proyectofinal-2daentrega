@@ -1,100 +1,68 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
+/* HEADER */
 .bgNavSMG {
-  background-color: #6d8c8b;
-}
+  background-color: #6d8c8b; }
 
 .tituloMenu {
-  color: white;
-}
+  color: white; }
 
 .colorBoton {
   background-color: #4e7271;
-  border-color: #4e7271;
-}
+  border-color: #4e7271; }
 
 .colorBoton:hover {
   background-color: #405c5b;
-  border-color: #405c5b;
-}
+  border-color: #405c5b; }
 
 .logotipoSMG {
   width: 100%;
   border-color: #405c5b;
-  border-style: double;
-}
+  border-style: double; }
 
 .contenedorLogotipo {
   width: 109px;
-  height: 56.26px;
-}
+  height: 56.26px; }
 
 .tituloPrincipal {
-  color: whitesmoke;
-}
+  color: whitesmoke; }
 
-.alineadoCentro {
-  text-align: center;
-  background-color: #d5dfdc;
-}
-
-.espaciadoFooter {
-  margin: 10px 10px 0px 10px;
-}
-
-a {
-  text-decoration: none;
-  color: rgb(25, 75, 70);
-}
-
+/* MAIN */
 .cajasIndex {
   border-bottom: 2.5px black solid;
   border-left: 2.5px black solid;
   border-right: 2.5px black solid;
   border-radius: 2rem;
-  margin: 5%;
-}
+  margin: 5%; }
 
 .margenesPrincipal {
   margin-top: 2%;
-  margin-bottom: 2%;
-}
+  margin-bottom: 2%; }
 
 .margenesSecundarios {
   margin-top: 2%;
-  margin-bottom: 2%;
-}
+  margin-bottom: 2%; }
 
 .anchoImagenes {
   width: 80%;
   height: 85%;
   padding: 1%;
-  border-left: solid rgb(25, 75, 70) 2.5px;
-  border-right: solid rgb(25, 75, 70) 2.5px;
-}
+  border-left: solid #194b46 2.5px;
+  border-right: solid #194b46 2.5px; }
 
 .centrado {
-    display: block;
-    margin: auto;
-    margin-top: 1%;
-}
+  display: block;
+  margin: auto;
+  margin-top: 1%; }
 
 .textosCarrusel {
-    color: white;
-}
+  color: white; }
 
 .tarjetaServicios {
   margin-top: 20px;
   margin-left: 20px;
-  margin-right: 20px;
-}
+  margin-right: 20px; }
 
 .formularioContacto {
-  margin: 2% 30% 2% 30%;
-}
+  margin: 2% 30% 2% 30%; }
 
 .bordesFormularios {
   border: #d5dfdc solid 3px;
@@ -102,114 +70,92 @@ a {
   padding-right: 1%;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
-  border-radius: 1rem;
-}
+  border-radius: 1rem; }
 
 .comentarioFormularios {
-    margin-left: 2px;
-}
+  margin-left: 2px; }
 
 h4 {
-  text-align: center;
-}
+  text-align: center; }
 
 .cajasAboutUs {
   border-bottom: 2.5px black solid;
   border-left: 2.5px black solid;
   border-right: 2.5px black solid;
   border-radius: 1rem;
-  margin: 0% 2% 2% 2%;
-}
+  margin: 0% 2% 2% 2%; }
 
 .tituloAboutUs {
   margin-top: 2.5%;
-  margin-bottom: 1.5%;
-}
+  margin-bottom: 1.5%; }
 
 .tituloAboutUs2 {
   margin-top: 4%;
-  margin-bottom: 1.5%;
-}
+  margin-bottom: 1.5%; }
 
 .tituloAboutUs3 {
-  margin-bottom: 1.5%;
-}
+  margin-bottom: 1.5%; }
 
 .videoYTFlexbox {
   display: flex;
   flex-wrap: row wrap;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .videoYoutube {
   text-align: center;
-  margin-bottom: 2%;
-}
+  margin-bottom: 2%; }
 
+/* FOOTER */
+.alineadoCentro {
+  text-align: center;
+  background-color: #d5dfdc; }
+
+.espaciadoFooter {
+  margin: 10px 10px 0px 10px; }
+
+a {
+  text-decoration: none;
+  color: #194b46; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+/* MEDIA QUERY */
 @media (max-width: 992px) {
   .indexItem2 {
-    font-size: smaller;
-  }
-
+    font-size: smaller; }
   .indexItem6 {
-    font-size: smaller;
-  }
-
+    font-size: smaller; }
   .indexItem8 {
-    font-size: smaller;
-  }
-}
+    font-size: smaller; } }
 
 @media (max-width: 768px) {
   .indexItem1 {
     font-size: large;
-    margin-left: 10%;
-  }
-
+    margin-left: 10%; }
   .indexItem2 {
-    width: 200%;
-  }
-
+    width: 200%; }
   .indexItem3 {
-    display: none;
-  }
-
+    display: none; }
   .indexItem4 {
     margin-top: 10%;
-    font-size: large;
-  }
-
+    font-size: large; }
   .indexItem5 {
     margin-top: 5%;
-    width: 210%;
-  }
-
+    width: 210%; }
   .indexItem6 {
-    display: none;
-  }
-
+    display: none; }
   .indexItem7 {
-    font-size: large;
-  }
-
+    font-size: large; }
   .indexItem8 {
     width: 200%;
-    margin-right: 10%;
-  }
-
+    margin-right: 10%; }
   .indexItem9 {
-    display: none;
-  }
-
+    display: none; }
   .imagenEsp {
-    display: none;
-  }
-
+    display: none; }
   .logotipoSMG {
-    display: none;
-  }
-
+    display: none; }
   .carrusel {
-    display: none;
-  }
-}
+    display: none; } }
