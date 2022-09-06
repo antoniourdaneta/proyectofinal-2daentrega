@@ -117,6 +117,17 @@ a {
   text-decoration: none;
   color: #194b46; }
 
+.parrafosConEstilo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  text-align: center; }
+
+.parrafosServicios {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  text-align: left; }
+
 * {
   margin: 0;
   padding: 0; }

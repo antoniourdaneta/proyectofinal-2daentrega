@@ -1,0 +1,14 @@
+@mixin parrafos {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.parrafosConEstilo {
+    @include parrafos;
+}
+
+.parrafosServicios {
+    @include parrafos;
+    text-align: left;
+}
