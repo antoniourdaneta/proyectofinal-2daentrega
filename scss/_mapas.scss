@@ -5,3 +5,11 @@ $mapColoresTitulos: (tituloMenu: white, tituloPrincipal: whitesmoke);
         color: $color;
     }
 }
+
+$estilo: (color: #405c5b, estilo-borde: double, ancho: 100%);
+
+.logotipoSMG {
+    border-color: map-get($map: $estilo, $key: color);
+    border-style: map-get($map: $estilo, $key: estilo-borde);
+    width: map-get($map: $estilo, $key: ancho);
+}
