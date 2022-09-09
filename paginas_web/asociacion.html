@@ -13,132 +13,183 @@
       crossorigin="anonymous"
     />
     <!-- ANIMATE CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/estilo.css"/>
-    <meta name="description" content="Se parte de Smart Medical Group. Página web que permite seleccionar la cartilla médica que más se adecúe a tus necesidades.">
+    <link rel="stylesheet" href="../css/estilo.css" />
+    <meta
+      name="description"
+      content="Se parte de Smart Medical Group. Página web que permite seleccionar la cartilla médica que más se adecúe a tus necesidades."
+    />
   </head>
   <body>
-
     <header>
-    <nav class="navbar navbar-dark bgNavSMG">
-      <div class="container-fluid">
-        <a href="../index.html" class="contenedorLogotipo"><img class="logotipoSMG" src="../multimedia/LOGOTIPOSMG2.jpg" alt="logotipo_SMG"></a>
-        <h1 class="tituloPrincipal">Asociación - SMG</h1>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasDarkNavbar"
-          aria-controls="offcanvasDarkNavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="offcanvas offcanvas-end bgNavSMG"
-          tabindex="-1"
-          id="offcanvasDarkNavbar"
-          aria-labelledby="offcanvasDarkNavbarLabel"
-        >
-          <div class="offcanvas-header">
-            <h2
-              class="offcanvas-title tituloMenu"
-              id="offcanvasDarkNavbarLabel"
-            >
-              Menú
-            </h2>
-            <button
-              type="button"
-              class="btn-close btn-close-white"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="servicios.html">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="asociacion.html">Asociación</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Otras Opciones
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="aboutus.html"
-                      >Sobre Nosotros</a
-                    >
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="¿Qué estás buscando?"
-                aria-label="Search"
-              />
-              <button class="btn btn-success colorBoton" type="submit">Buscar</button>
-            </form>
+      <nav class="navbar navbar-dark bgNavSMG">
+        <div class="container-fluid">
+          <a href="../index.html" class="contenedorLogotipo"
+            ><img
+              class="logotipoSMG"
+              src="../multimedia/LOGOTIPOSMG2.jpg"
+              alt="logotipo_SMG"
+          /></a>
+          <h1 class="tituloPrincipal">Asociación - SMG</h1>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end bgNavSMG"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h2
+                class="offcanvas-title tituloMenu"
+                id="offcanvasDarkNavbarLabel"
+              >
+                Menú
+              </h2>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="asociacion.html"
+                    >Asociación</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Otras Opciones
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="aboutus.html"
+                        >Sobre Nosotros</a
+                      >
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="¿Qué estás buscando?"
+                  aria-label="Search"
+                />
+                <button class="btn btn-success colorBoton" type="submit">
+                  Buscar
+                </button>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
     </header>
 
     <main>
-        <h3 class="subtituloFormulario">¡Conviértete en Socio/a!</h3>
+      <h3 class="subtituloFormulario">¡Conviértete en Socio/a!</h3>
 
-          <form class="formularioContacto bordesFormularios animate__animated animate__flipInY animate__slow">
-            <label for="exampleFormControlTextarea1" class="form-label comentarioFormularios">Déjanos tus datos y te contactaremos en breve</label>
-          <div class="form-floating margenesSecundarios">
-            <input type="text" class="form-control" id="floatingPassword" placeholder="Nombre y Apellido">
-            <label for="floatingPassword">Nombre y Apellido</label>
-          </div>
-          <div class="form-floating margenesSecundarios">
-            <input type="text" class="form-control" id="floatingPassword" placeholder="Edad">
-            <label for="floatingPassword">Edad</label>
-          </div>
-          <div class="form-floating margenesSecundarios">
-            <input type="text" class="form-control" id="floatingPassword" placeholder="Teléfono Celular">
-            <label for="floatingPassword">Teléfono Celular</label>
-          </div>
-          <div class="form-floating margenesSecundarios">
-            <input type="text" class="form-control" id="floatingPassword" placeholder="Correo Electrónico">
-            <label for="floatingPassword">Correo Electrónico</label>
-          </div>
-          <button type="submit" class="btn btn-light margenesSecundarios">Enviar</button>
-          <button type="reset" class="btn btn-light margenesSecundarios">Restablecer</button>
-          </form>
+      <form
+        class="formularioContacto bordesFormularios animate__animated animate__flipInY animate__slow"
+      >
+        <label
+          for="exampleFormControlTextarea1"
+          class="form-label comentarioFormularios"
+          >Déjanos tus datos y te contactaremos en breve</label
+        >
+        <div class="form-floating margenesSecundarios">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingPassword"
+            placeholder="Nombre y Apellido"
+          />
+          <label for="floatingPassword">Nombre y Apellido</label>
+        </div>
+        <div class="form-floating margenesSecundarios">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingPassword"
+            placeholder="Edad"
+          />
+          <label for="floatingPassword">Edad</label>
+        </div>
+        <div class="form-floating margenesSecundarios">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingPassword"
+            placeholder="Teléfono Celular"
+          />
+          <label for="floatingPassword">Teléfono Celular</label>
+        </div>
+        <div class="form-floating margenesSecundarios">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingPassword"
+            placeholder="Correo Electrónico"
+          />
+          <label for="floatingPassword">Correo Electrónico</label>
+        </div>
+        <button type="submit" class="btn btn-light margenesSecundarios">
+          Enviar
+        </button>
+        <button type="reset" class="btn btn-light margenesSecundarios">
+          Restablecer
+        </button>
+      </form>
     </main>
 
     <footer class="alineadoCentro">
-        <a class="espaciadoFooter" href="https://www.instagram.com/">Instagram</a>
-        <a class="espaciadoFooter" href="https://www.facebook.com/">Facebook</a>
-        <a class="espaciadoFooter" href="https://www.twitter.com/">Twitter</a>
-        <a class="espaciadoFooter" href="https://www.youtube.com/">Youtube</a>
-        <a class="espaciadoFooter" href="https://www.google.com.ar/maps">Google Maps</a>
-        <p class="espaciadoFooter">Elaborado por Antonio Urdaneta - Todos los derechos reservados.</p>
-        <p class="espaciadoFooter">2022.</p>
+      <a class="espaciadoFooter" href="https://www.instagram.com/">Instagram</a>
+      <a class="espaciadoFooter" href="https://www.facebook.com/">Facebook</a>
+      <a class="espaciadoFooter" href="https://www.twitter.com/">Twitter</a>
+      <a class="espaciadoFooter" href="https://www.youtube.com/">Youtube</a>
+      <a class="espaciadoFooter" href="https://www.google.com.ar/maps"
+        >Google Maps</a
+      >
+      <p class="espaciadoFooter">
+        Elaborado por Antonio Urdaneta - Todos los derechos reservados.
+      </p>
+      <p class="espaciadoFooter">2022.</p>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->
