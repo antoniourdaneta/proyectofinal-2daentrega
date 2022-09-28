@@ -30,7 +30,8 @@
   border-left: 2.5px black solid;
   border-right: 2.5px black solid;
   border-radius: 2rem;
-  margin: 5%; }
+  margin: 5%;
+  padding: 3%; }
 
 .margenesPrincipal {
   margin-top: 2%;
@@ -59,6 +60,10 @@
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px; }
+
+.contenedorServicios {
+  padding-left: 2.5%;
+  padding-right: 2.5%; }
 
 .formularioContacto {
   margin: 2% 30% 2% 30%; }
@@ -152,7 +157,9 @@ a {
   .indexItem6 {
     font-size: smaller; }
   .indexItem8 {
-    font-size: smaller; } }
+    font-size: smaller; }
+  .formularioContacto {
+    margin: 2% 45px 2% 45px; } }
 
 @media (max-width: 768px) {
   .indexItem1 {
@@ -180,6 +187,8 @@ a {
   .imagenEsp {
     display: none; }
   .logotipoSMG {
+    display: none; }
+  .contenedorLogotipo {
     display: none; }
   .carrusel {
     display: none; } }

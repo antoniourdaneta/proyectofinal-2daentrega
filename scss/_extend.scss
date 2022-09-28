@@ -1,9 +1,9 @@
 .alineadoCentro {
-    text-align: center;
-    background-color: #d5dfdc;
-  }
+  text-align: center;
+  background-color: #d5dfdc;
+}
 
 .videoYoutube {
-    @extend .alineadoCentro;
-    margin-bottom: 2%;
-  }
+  @extend .alineadoCentro;
+  margin-bottom: 2%;
+}
